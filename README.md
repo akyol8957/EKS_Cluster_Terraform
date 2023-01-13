@@ -1,13 +1,25 @@
+# https://medium.com/@niyi.alimi/provisioning-an-aws-kubernetes-cluster-eks-with-terraform-cba435c51517
 # Provisioning an AWS Kubernetes Cluster (EKS) with Terraform
 <p align="center"><a href="https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html" target="_blank"><img align="center" src="images/what-is-eks.png"></a></p>
 
-- [Provisioning an AWS Kubernetes Cluster (EKS) with Terraform](#Provisioning-an-aws-kubernetes-cluster-eks-with-terraform)
+- [https://medium.com/@niyi.alimi/provisioning-an-aws-kubernetes-cluster-eks-with-terraform-cba435c51517](#httpsmediumcomniyialimiprovisioning-an-aws-kubernetes-cluster-eks-with-terraform-cba435c51517)
+- [Provisioning an AWS Kubernetes Cluster (EKS) with Terraform](#provisioning-an-aws-kubernetes-cluster-eks-with-terraform)
   - [Introduction](#introduction)
   - [Kubernetes](#kubernetes)
   - [Amazon EKS](#amazon-eks)
   - [Terraform](#terraform)
   - [Cluster](#cluster)
   - [Deploy an EKS Cluster with Terraform](#deploy-an-eks-cluster-with-terraform)
+    - [Prerequisites](#prerequisites)
+    - [Step1: Terraform Initial Setup Configuration](#step1-terraform-initial-setup-configuration)
+    - [Step 2: Networking Module](#step-2-networking-module)
+    - [Step 3: Cluster Module](#step-3-cluster-module)
+    - [Step 4: Using the modules created to provision the Cluster with all the needed resources](#step-4-using-the-modules-created-to-provision-the-cluster-with-all-the-needed-resources)
+    - [Step 5: Terraform execution to provision the resources](#step-5-terraform-execution-to-provision-the-resources)
+    - [Step 6: Connecting the Cluster](#step-6-connecting-the-cluster)
+    - [Step 7: Verifying the resources provisioned](#step-7-verifying-the-resources-provisioned)
+    - [Step 8: Testing - Deploy a simple Application in the cluster](#step-8-testing-deploy-a-simple-application-in-the-cluster)
+    - [Step 9: Cleanup](#step-9-cleanup)
 
 ## Introduction
 
